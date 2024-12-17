@@ -31,7 +31,7 @@ To run the scripts, ensure you have the following:
 ### General Requirements:
 - Python 3.x
 - Bash shell (Linux/macOS compatible)
-- HyperDeck connected over the appropriate interface (if formatting devices)
+- HyperDeck connected to the network
 
 ### Python Libraries:
 - `argparse` (for command-line argument parsing)
@@ -42,27 +42,17 @@ To run the scripts, ensure you have the following:
 ## Installation
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/hyperdeck-formatter-runner.git
-   cd hyperdeck-formatter-runner
-
    
 ## Usage
 1. Formatting HyperDeck Media
 
 Run the format_hyperdecks.py script to format HyperDeck media devices.
 
-Syntax:
-
 python format_hyperdecks.py --device <DEVICE_NAME> --format <FORMAT_TYPE>
-
-Example:
-
-python format_hyperdecks.py --device /dev/sdb --format exFAT
 
 Arguments:
 
-    --device: Path to the device (e.g., /dev/sdb).
+    --device: Path to the device
     --format: File system format (e.g., exFAT, NTFS).
 
 2. Running the File Automation Script
