@@ -47,3 +47,56 @@ To run the scripts, ensure you have the following:
    ```bash
    git clone https://github.com/<your-username>/hyperdeck-formatter-runner.git
    cd hyperdeck-formatter-runner
+
+   
+## Usage
+1. Formatting HyperDeck Media
+
+Run the format_hyperdecks.py script to format HyperDeck media devices.
+
+Syntax:
+
+python format_hyperdecks.py --device <DEVICE_NAME> --format <FORMAT_TYPE>
+
+Example:
+
+python format_hyperdecks.py --device /dev/sdb --format exFAT
+
+Arguments:
+
+    --device: Path to the device (e.g., /dev/sdb).
+    --format: File system format (e.g., exFAT, NTFS).
+
+2. Running the File Automation Script
+
+Execute run_file.sh for running automated workflows.
+
+Syntax:
+
+bash run_file.sh <FILE_NAME>
+
+Example:
+
+bash run_file.sh my_script.sh
+
+Ensure the file specified is executable. To make a file executable:
+
+chmod +x my_script.sh
+
+
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+    Fork the repository.
+    Create a new branch for your feature/fix.
+    Submit a pull request with a descriptive title and detailed description.
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+Contact
+
+For any questions, please open an issue on the repository.
+
