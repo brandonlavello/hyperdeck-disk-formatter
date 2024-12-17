@@ -1,5 +1,3 @@
-# Creating a README file with the content provided earlier.
-readme_content = """
 # HyperDeck Formatter and File Runner
 
 This repository provides scripts to format HyperDeck media and automate file execution tasks. It includes two key scripts: `format_hyperdecks.py` for managing HyperDeck devices and `run_file.sh` for executing automated shell commands.
