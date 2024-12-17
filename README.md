@@ -19,8 +19,8 @@ This repository provides scripts to format HyperDeck media and automate file exe
 
 ## Overview
 
-- **`format_hyperdecks.py`**: A Python script that formats HyperDeck media devices for optimal usage.
-- **`run_file.sh`**: A shell script that automates the execution of specific tasks, providing flexibility in running workflows.
+- **`format_hyperdecks.py`**: A Python script that formats HyperDeck media devices.
+- **`run_file.sh`**: A shell script that automates the execution specifically for use in Companion with a Streamdeck button.
 
 ---
 
