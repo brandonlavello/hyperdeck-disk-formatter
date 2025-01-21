@@ -75,11 +75,7 @@ chmod +x my_script.sh
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
-
-    Fork the repository.
-    Create a new branch for your feature/fix.
-    Submit a pull request with a descriptive title and detailed description.
+Contributions welcome.
 
 ### License
 
